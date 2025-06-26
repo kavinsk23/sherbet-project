@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X, ShoppingCart, Bell, MessageSquare } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import logo from "../../../assets/images/logo.svg";
 import helpButtonBg from "../../../assets/images/helpButtonBg.svg";
 import cart from "../../../assets/icons/cart.svg";
