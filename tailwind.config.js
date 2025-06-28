@@ -39,17 +39,18 @@ module.exports = {
           // Background Colors
           "bg-dark": "#0F0F0F", // Main dark background
           "bg-light": "#FFFFFF",
-          "bg-section": "#F8F9FA",
+          "bg-section": "#F9F9F9",
 
           // Green for Success States
           green: "#10B981",
-          "green-light": "#34D399",
+          "green-light": "#35F29A",
           "green-dark": "#059669",
+          "teal-green": "#CFE3DA",
 
           // Orange for Warnings/Highlights
           orange: "#F59E0B",
           "orange-light": "#FBBF24",
-          "orange-dark": "#D97706",
+          "orange-dark": "#FE8E38",
 
           // Red for Errors
           red: "#EF4444",
