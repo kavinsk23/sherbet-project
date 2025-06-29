@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../common/Button";
+import trophy from "../../../assets/images/Tropy.svg";
 
 // TypeScript interfaces
 interface ProgressCardProps {
@@ -76,21 +77,8 @@ const SpotlightQuizCard: React.FC<SpotlightQuizProps> = ({
         <div className="flex items-center space-x-4">
           <div className="flex-shrink-0">
             {/* Trophy SVG */}
-            <div className="w-16 h-16 relative">
-              {/* Trophy Base */}
-              <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-8 h-3 bg-yellow-600 rounded-sm"></div>
-
-              {/* Trophy Cup */}
-              <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 w-10 h-8 bg-gradient-to-b from-yellow-400 to-yellow-600 rounded-t-lg"></div>
-
-              {/* Trophy Handles */}
-              <div className="absolute bottom-4 left-2 w-3 h-4 border-2 border-yellow-400 rounded-full"></div>
-              <div className="absolute bottom-4 right-2 w-3 h-4 border-2 border-yellow-400 rounded-full"></div>
-
-              {/* Star */}
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 text-yellow-400 text-2xl">
-                ⭐
-              </div>
+            <div>
+              <img src={trophy} alt="trophy" />
             </div>
           </div>
 
