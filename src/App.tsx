@@ -4,6 +4,7 @@ import Navbar from "./components/layout/navbar/Navbar";
 import Landing from "./components/layout/landing/Landing";
 import Introduction from "./components/layout/introduction/Introduction";
 import Footer from "./components/layout/footer/Footer";
+import Quiz1 from "./components/layout/quiz-1/Quiz1";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <HeroSection />
       <Landing />
       <Introduction />
+      <Quiz1 />
       <Footer />
     </div>
   );
