@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="bg-renault-bg-dark border-b border-renault-gray-800 md:relative sticky top-0 z-50"
+      className="bg-renault-bg-dark border-b border-renault-gray-800 sticky top-0 z-50"
       role="navigation"
       aria-label="Main navigation"
     >

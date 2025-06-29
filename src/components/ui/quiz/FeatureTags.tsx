@@ -24,7 +24,7 @@ const FeatureTags: React.FC<FeatureTagsProps> = ({ className = "" }) => {
         {features.slice(0, 4).map((feature, index) => (
           <div
             key={index}
-            className="bg-renault-orange-light bg-opacity-30 border border-renault-orange-light border-dashed rounded-lg px-4 py-3 text-center"
+            className="bg-renault-orange-light bg-opacity-30 border border-renault-gray-400 border-dashed rounded-lg px-4 py-3 text-center"
           >
             <span className="text-sm font-dm-sans text-renault-text-secondary">
               {feature}
@@ -38,7 +38,7 @@ const FeatureTags: React.FC<FeatureTagsProps> = ({ className = "" }) => {
         {features.slice(4).map((feature, index) => (
           <div
             key={index + 4}
-            className="bg-renault-orange-light bg-opacity-30 border border-renault-orange-light border-dashed rounded-lg px-4 py-3 text-center"
+            className="bg-renault-orange-light bg-opacity-30 border border-renault-gray-400 border-dashed rounded-lg px-4 py-3 text-center"
           >
             <span className="text-sm font-dm-sans text-renault-text-secondary">
               {feature}
