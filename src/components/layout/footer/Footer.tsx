@@ -1,5 +1,6 @@
 import React from "react";
-
+import renault from "../../../assets/images/renault.png";
+import poweredSherbet from "../../../assets/images/powered-sherbet.png";
 // TypeScript interfaces
 interface FooterProps {
   onSubscribe?: () => void;
@@ -50,21 +51,17 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe, className = "" }) => {
         </div>
 
         {/* Main Footer Content */}
-        <div className="pt-16 pb-8 px-8">
+        <div className="py-8 px-8">
           <div className="max-w-7xl mx-auto">
             {/* Renault Group Logo */}
-            <div className="text-center mb-16">
-              <div className="text-4xl lg:text-5xl font-nouvel-bold text-white leading-tight">
-                Renault
-                <br />
-                Group
-              </div>
+            <div className="flex w-full justify-center">
+              <img src={renault} alt="renault" className="w-40" />
             </div>
 
             {/* Footer Bottom */}
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
               {/* Left Side - Links */}
-              <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <a
                   href="#terms"
                   className="text-white font-dm-sans text-base hover:text-renault-yellow transition-colors duration-200"
@@ -82,14 +79,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe, className = "" }) => {
 
               {/* Right Side - Powered by Sherbet */}
               <div className="flex items-center justify-center lg:justify-end">
-                <div className="text-right">
-                  <div className="text-renault-yellow font-nouvel-bold text-2xl leading-none">
-                    powered
-                  </div>
-                  <div className="text-white font-nouvel text-xl leading-none">
-                    by<span className="font-nouvel-bold">Sherbet.</span>
-                  </div>
-                </div>
+                <img src={poweredSherbet} alt="renault" className="w-40" />
               </div>
             </div>
           </div>
