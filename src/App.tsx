@@ -3,6 +3,7 @@ import HeroSection from "./components/ui/hero-section/HeroSection";
 import Navbar from "./components/layout/navbar/Navbar";
 import Landing from "./components/layout/landing/Landing";
 import Introduction from "./components/layout/introduction/Introduction";
+import Footer from "./components/layout/footer/Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <Landing />
       <Introduction />
+      <Footer />
     </div>
   );
 };

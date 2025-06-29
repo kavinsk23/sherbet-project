@@ -128,7 +128,7 @@ const Introduction: React.FC<IntroductionProps> = ({
 
               {/* Right Column - Hero Image (Fixed width) */}
               <div className="flex-shrink-0">
-                <div className="bg-red-500 rounded-2xl p-6 w-[360px] h-[260px] relative">
+                <div className="bg-renault-bg-section-2 rounded-2xl p-6 w-[360px] h-[260px] relative">
                   <img
                     src={motor}
                     alt={heroImageAlt}
