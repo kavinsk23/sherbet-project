@@ -40,6 +40,7 @@ module.exports = {
           "bg-dark": "#0F0F0F", // Main dark background
           "bg-light": "#FFFFFF",
           "bg-section": "#F9F9F9",
+          "bg-section-2": "#F1F1F3",
 
           // Green for Success States
           green: "#10B981",

@@ -32,7 +32,7 @@ const Button: React.FC<ButtonProps> = ({
     primary:
       "bg-renault-blue hover:bg-renault-blue-dark text-white focus:ring-renault-blue",
     secondary:
-      "bg-renault-green hover:bg-renault-green-dark text-white focus:ring-renault-green",
+      "bg-renault-green-light hover:bg-renault-green text-white focus:ring-renault-green",
     success:
       "bg-renault-yellow hover:bg-renault-yellow-dark text-renault-bg-dark focus:ring-renault-yellow",
     ghost:
