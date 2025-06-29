@@ -7,7 +7,7 @@ interface OptionProps {
 
 const QuizAnswer: React.FC<OptionProps> = ({ title, image }) => {
   return (
-    <div className="relative p-6 rounded-xl cursor-pointer transition-all duration-200 bg-renault-bg-section h-52 w-52 flex items-center justify-center">
+    <div className="relative p-6 rounded-xl cursor-pointer transition-all duration-200 bg-renault-bg-section-2 h-52 w-52 flex items-center justify-center">
       <div className="text-center flex flex-col items-center">
         <h3 className="text-sm font-dm-sans text-renault-text-primary leading-snug">
           {title}

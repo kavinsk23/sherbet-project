@@ -6,7 +6,7 @@ import QuizAnswer2 from "../../ui/quiz/QuizAnswer2";
 
 const Quiz3: React.FC = () => {
   return (
-    <div className="p-4 sm:p-6 lg:p-8">
+    <div className="p-4 sm:p-6 lg:p-8 bg-renault-bg-section m-4 rounded-lg">
       <div className="flex flex-col lg:flex-row">
         {/* Question Number Sidebar - Displays on left for desktop, top for mobile */}
         <div className="flex lg:justify-center">

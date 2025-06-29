@@ -51,7 +51,7 @@ const Quiz2: React.FC = () => {
   const optionRows = chunkArray(options, 3);
 
   return (
-    <div className="p-4 sm:p-6 lg:p-8">
+    <div className="p-4 sm:p-6 lg:p-8 bg-renault-bg-section m-4 rounded-lg">
       <div className="flex flex-col lg:flex-row">
         <div className="flex lg:justify-center">
           <QuestionNumber questionsRemaining={3} />
