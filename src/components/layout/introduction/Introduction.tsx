@@ -29,7 +29,7 @@ interface IntroductionProps {
 // Quiz Badge Component - Hardcoded with actual images
 const QuizBadge: React.FC<QuizBadgeProps> = () => {
   return (
-    <div className="space-y-6 flex lg:flex-col">
+    <div className="space-y-6 flex lg:flex-col md:border-r-2 border-renault-orange">
       {/* Header with Trophy and Text */}
       <div className="flex items-center lg:flex-row lg:items-start space-x-4 mr-10">
         {/* Trophy Icon - Using imported cup image */}
