@@ -16,7 +16,7 @@ const Question: React.FC<QuestionProps> = ({
   return (
     <div className={`${className}`}>
       {/* Question Title */}
-      <h2 className="text-3xl font-dm-sans mb-4 mt-4 lg:mt-0">
+      <h2 className="text-2xl font-dm-sans mb-4 mt-4 lg:mt-0">
         <span className="text-renault-orange">Question {questionNumber}:</span>{" "}
         <span className="text-renault-text-primary">{questionText}</span>
       </h2>
