@@ -29,9 +29,9 @@ interface IntroductionProps {
 // Quiz Badge Component - Hardcoded with actual images
 const QuizBadge: React.FC<QuizBadgeProps> = () => {
   return (
-    <div className="space-y-6 flex lg:flex-col">
+    <div className="space-y-6 flex lg:flex-col border-r-2 border-renault-orange pr-4">
       {/* Header with Trophy and Text */}
-      <div className="flex items-center lg:flex-row lg:items-start space-x-4 mr-10">
+      <div className="flex items-center lg:flex-row lg:items-start space-x-4">
         {/* Trophy Icon - Using imported cup image */}
         <img
           src={cup}
@@ -54,7 +54,7 @@ const QuizBadge: React.FC<QuizBadgeProps> = () => {
       </div>
 
       {/* Powered Badge Image - Using imported powered image */}
-      <div className="w-48 h-72 max-w-xs">
+      <div className="w-60 h-72 max-w-xs">
         <img
           src={powered}
           alt="Powered quiz badge"
@@ -90,11 +90,11 @@ const Introduction: React.FC<IntroductionProps> = ({
     <section
       className={`m-4 bg-renault-bg-section rounded-lg p-4 mt-0 ${className}`}
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mr-auto">
         {/* Exact three-column layout */}
-        <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-12">
+        <div className="flex flex-col lg:flex-row items-start gap-8">
           {/* Left Column - Quiz Badge (Fixed width) */}
-          <div className="w-full lg:w-80 flex-shrink-0">
+          <div className="lg:w-66 flex-shrink-0">
             <QuizBadge />
           </div>
           <div className="flex flex-col w-full ">
