@@ -1,6 +1,4 @@
 import React from "react";
-import correct from "../../../assets/icons/correct.svg";
-import wrong from "../../../assets/icons/wrong.svg";
 
 interface OptionProps {
   title: string;
